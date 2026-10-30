@@ -1,0 +1,12 @@
+[project]
+name = "morphq-reimplementation"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "qiskit>=2.6.1",
+    "qiskit-aer>=0.18.2",
+    "qiskit-qasm3-import>=0.6.0",
+]
+
+[tool.uv]
+package = false
